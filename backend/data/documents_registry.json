@@ -1,0 +1,34 @@
+[
+  {
+    "document_id": "doc_20282860_cse12",
+    "file_name": "12-Syllabus.pdf",
+    "course_id": "cse12",
+    "document_type": "syllabus",
+    "chunks_indexed": 50,
+    "uploaded_at": "2026-03-27T00:22:09.175544+00:00"
+  },
+  {
+    "document_id": "doc_8addda33_math20c",
+    "file_name": "12-Syllabus.pdf",
+    "course_id": "math20c",
+    "document_type": "syllabus",
+    "chunks_indexed": 50,
+    "uploaded_at": "2026-03-27T00:23:15.342369+00:00"
+  },
+  {
+    "document_id": "doc_dba96b65_cse12",
+    "file_name": "12-Syllabus.pdf",
+    "course_id": "cse12",
+    "document_type": "lecture_notes",
+    "chunks_indexed": 50,
+    "uploaded_at": "2026-03-27T00:58:05.980014+00:00"
+  },
+  {
+    "document_id": "doc_c09e97fc_math20c",
+    "file_name": "12-Syllabus.pdf",
+    "course_id": "math20c",
+    "document_type": "syllabus",
+    "chunks_indexed": 50,
+    "uploaded_at": "2026-03-27T01:16:20.461229+00:00"
+  }
+]

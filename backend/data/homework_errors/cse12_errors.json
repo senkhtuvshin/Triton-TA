@@ -1,0 +1,17 @@
+{
+  "course_id": "cse12",
+  "errors": [
+    {
+      "id": "err_001",
+      "homework_id": "PA1",
+      "problem": "removeFirst",
+      "topic": "linked_lists",
+      "subtopic": "null_pointer_handling",
+      "description": "Forgot null check before dereferencing head.next in removeFirst()",
+      "recorded_at": "2026-03-12T16:00:00Z",
+      "status": "unresolved",
+      "resolved": false,
+      "attempts": 3
+    }
+  ]
+}

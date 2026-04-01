@@ -1,0 +1,161 @@
+{
+  "course_id": "math_18",
+  "events": [
+    {
+      "id": "cal_42dab7eb",
+      "course_id": "math_18",
+      "title": "Midterm 1",
+      "type": "EXAM",
+      "due_date": "2026-04-24",
+      "weight": 20,
+      "description": "In-class exam during lecture time (Friday)",
+      "completed": false,
+      "source": "manual",
+      "created_at": "2026-03-27T19:07:33.493627+00:00"
+    },
+    {
+      "id": "cal_midterm2_m18",
+      "course_id": "math_18",
+      "title": "Midterm 2",
+      "type": "EXAM",
+      "due_date": "2026-05-15",
+      "weight": 20,
+      "description": "In-class exam during lecture time (Friday)",
+      "completed": false,
+      "source": "manual",
+      "created_at": "2026-03-27T23:30:00.000000+00:00"
+    },
+    {
+      "id": "cal_final_m18",
+      "course_id": "math_18",
+      "title": "Final Exam",
+      "type": "EXAM",
+      "due_date": "2026-06-06",
+      "weight": 40,
+      "description": "Saturday 8-11am, comprehensive final exam",
+      "completed": false,
+      "source": "manual",
+      "created_at": "2026-03-27T23:30:00.000000+00:00"
+    },
+    {
+      "id": "cal_9edf55af",
+      "course_id": "math_18",
+      "title": "MyLab HW 1",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-04-14",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_68529205",
+      "course_id": "math_18",
+      "title": "MyLab HW 2",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-04-21",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_62a1aebb",
+      "course_id": "math_18",
+      "title": "MyLab HW 3",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-04-28",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_c04e432c",
+      "course_id": "math_18",
+      "title": "MyLab HW 4",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-05-05",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_e67286e4",
+      "course_id": "math_18",
+      "title": "MyLab HW 5",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-05-12",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_fdd00bd1",
+      "course_id": "math_18",
+      "title": "MyLab HW 6",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-05-19",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_0226004e",
+      "course_id": "math_18",
+      "title": "MyLab HW 7",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-05-26",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_c4927212",
+      "course_id": "math_18",
+      "title": "MyLab HW 8",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-06-02",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Tuesday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_d66e430e",
+      "course_id": "math_18",
+      "title": "MyLab HW 9",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-06-05",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Friday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    },
+    {
+      "id": "cal_5effcdf0",
+      "course_id": "math_18",
+      "title": "MyLab HW 10",
+      "type": "ASSIGNMENT",
+      "due_date": "2026-06-05",
+      "weight": 5,
+      "description": "Weekly MyLab homework due Friday 11:59pm",
+      "completed": false,
+      "source": "scraped",
+      "created_at": "2026-03-27T23:23:04.061850+00:00"
+    }
+  ]
+}

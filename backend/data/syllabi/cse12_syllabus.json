@@ -1,0 +1,61 @@
+{
+  "course_id": "cse12",
+  "course_name": "CSE 12 — Basic Data Structures and Object-Oriented Design",
+  "quarter": "Spring 2026",
+  "events": [
+    {
+      "id": "midterm1",
+      "type": "midterm",
+      "title": "Midterm 1",
+      "date": "2026-04-23",
+      "topics_covered": ["java_oop", "inheritance", "interfaces", "generics", "arrays", "linked_lists", "big_o"],
+      "practice_problems": [
+        {"source": "PA1", "problem": "LinkedList impl", "topic": "linked_lists"},
+        {"source": "HW2", "problem": "3a", "topic": "big_o"},
+        {"source": "Textbook Ch3", "problem": "Ex 3.4", "topic": "arrays"},
+        {"source": "HW1", "problem": "2b", "topic": "inheritance"}
+      ]
+    },
+    {
+      "id": "midterm2",
+      "type": "midterm",
+      "title": "Midterm 2",
+      "date": "2026-05-21",
+      "topics_covered": ["stacks", "queues", "trees", "bst", "avl_trees", "heaps"],
+      "practice_problems": [
+        {"source": "PA2", "problem": "BST insert/delete", "topic": "bst"},
+        {"source": "HW4", "problem": "5b", "topic": "heaps"},
+        {"source": "HW3", "problem": "4a", "topic": "avl_trees"},
+        {"source": "Textbook Ch7", "problem": "Ex 7.2", "topic": "stacks"}
+      ]
+    },
+    {
+      "id": "final",
+      "type": "final",
+      "title": "Final Exam",
+      "date": "2026-06-12",
+      "topics_covered": ["hash_tables", "sorting_algorithms", "graph_basics"],
+      "practice_problems": [
+        {"source": "PA3", "problem": "HashMap impl", "topic": "hash_tables"},
+        {"source": "HW6", "problem": "2c", "topic": "sorting_algorithms"},
+        {"source": "Textbook Ch11", "problem": "Ex 11.3", "topic": "graph_basics"}
+      ]
+    },
+    {
+      "id": "pa1_due",
+      "type": "homework_due",
+      "title": "PA 1 Due — LinkedList",
+      "date": "2026-04-10",
+      "topics_covered": ["linked_lists", "java_oop"],
+      "practice_problems": []
+    },
+    {
+      "id": "pa2_due",
+      "type": "homework_due",
+      "title": "PA 2 Due — BST",
+      "date": "2026-05-07",
+      "topics_covered": ["bst", "trees"],
+      "practice_problems": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KaTeX styles */
+@import url("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css");
+
+:root {
+  --ucsd-navy: #182B49;
+  --ucsd-gold: #C69214;
+}
+
+body {
+  background: #f8f9fb;
+  color: #1a1a2e;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* KaTeX display math centering */
+.katex-display { overflow-x: auto; padding: 0.5rem 0; }
+
+/* Prose for assistant messages (dark navy theme) */
+.message-prose p { margin-bottom: 0.75rem; }
+.message-prose p:last-child { margin-bottom: 0; }
+.message-prose ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 0.75rem; }
+.message-prose ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 0.75rem; }
+.message-prose li { margin-bottom: 0.25rem; }
+.message-prose h3, .message-prose h4 { font-weight: 600; margin: 0.75rem 0 0.25rem; color: #E8B84B; }
+.message-prose a { color: #C69214; text-decoration: underline; }
+.message-prose strong { color: #F5E6BB; }
+.message-prose code:not(pre code) {
+  background: rgba(198,146,20,0.12);
+  border: 1px solid rgba(198,146,20,0.25);
+  color: #E8B84B;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+.message-prose pre {
+  background: #080f1a;
+  border: 1px solid rgba(198,146,20,0.15);
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 0.75rem;
+}
+.message-prose pre code { background: transparent; border: none; padding: 0; font-size: 0.85em; color: inherit; }
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
+
+/* ── Radial Orbital Timeline ── */
+@keyframes orbital-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+@keyframes orbital-ping {
+  75%, 100% { transform: scale(2); opacity: 0; }
+}
+.backdrop-blur-lg { backdrop-filter: blur(16px); }
+
+/* ── UCSD Wavy Gradient Background (Home tab) ── */
+@keyframes ucsd-blob-1 {
+  0%, 100% { transform: translate(0%, 10%) scale(1); }
+  33%       { transform: translate(25%, -15%) scale(1.15); }
+  66%       { transform: translate(-15%, 35%) scale(0.9); }
+}
+@keyframes ucsd-blob-2 {
+  0%, 100% { transform: translate(70%, 55%) scale(1); }
+  33%       { transform: translate(50%, 75%) scale(1.2); }
+  66%       { transform: translate(90%, 35%) scale(0.85); }
+}
+@keyframes ucsd-blob-3 {
+  0%, 100% { transform: translate(40%, 80%) scale(1); }
+  33%       { transform: translate(15%, 55%) scale(1.1); }
+  66%       { transform: translate(65%, 90%) scale(0.95); }
+}
+.ucsd-blob-1 {
+  animation: ucsd-blob-1 16s ease-in-out infinite;
+  background: radial-gradient(circle, #C69214, transparent 70%);
+}
+.ucsd-blob-2 {
+  animation: ucsd-blob-2 20s ease-in-out infinite;
+  background: radial-gradient(circle, #1F3A63, transparent 70%);
+}
+.ucsd-blob-3 {
+  animation: ucsd-blob-3 13s ease-in-out infinite;
+  background: radial-gradient(circle, #E8B84B, transparent 70%);
+}

@@ -1,0 +1,53 @@
+{
+  "course_id": "math20c",
+  "errors": [
+    {
+      "id": "err_001",
+      "homework_id": "HW2",
+      "problem": "4b",
+      "topic": "gradient",
+      "subtopic": "gradient_direction_interpretation",
+      "description": "Confused the gradient vector direction with the value of the function itself",
+      "recorded_at": "2026-03-10T14:30:00Z",
+      "status": "unresolved",
+      "resolved": false,
+      "attempts": 2
+    },
+    {
+      "id": "err_002",
+      "homework_id": "HW3",
+      "problem": "7a",
+      "topic": "chain_rule",
+      "subtopic": "multivariable_chain_rule",
+      "description": "Forgot to apply chain rule to inner composite functions",
+      "recorded_at": "2026-03-18T10:15:00Z",
+      "status": "mastered",
+      "resolved": true,
+      "attempts": 1
+    },
+    {
+      "id": "err_ba7da16d",
+      "homework_id": "HW4",
+      "problem": "4B",
+      "topic": "Gradient",
+      "subtopic": "",
+      "description": "",
+      "recorded_at": "2026-03-27 02:06:49.962982+00:00",
+      "status": "unresolved",
+      "resolved": false,
+      "attempts": 1
+    },
+    {
+      "id": "err_28d1362a",
+      "homework_id": "HW1",
+      "problem": "3",
+      "topic": "vectors",
+      "subtopic": "",
+      "description": "",
+      "recorded_at": "2026-03-27 02:18:10.409190+00:00",
+      "status": "unresolved",
+      "resolved": false,
+      "attempts": 1
+    }
+  ]
+}

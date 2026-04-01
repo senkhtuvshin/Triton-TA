@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": "cse12",
+      "code": "CSE 12",
+      "name": "Data Structures"
+    },
+    {
+      "id": "math_18",
+      "code": "MATH 18",
+      "name": "Linear Algebra"
+    }
+  ]
+}

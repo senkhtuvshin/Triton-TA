@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triton Smart-Scrape</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span class="logo-icon">🔱</span>
+      <div>
+        <div class="logo-title">Triton Smart-Scrape</div>
+        <div class="logo-sub">UCSD Course Agent</div>
+      </div>
+    </div>
+    <div id="status-dot" class="dot dot-idle" title="Not on a Canvas page"></div>
+  </header>
+
+  <!-- Page info -->
+  <div id="page-info" class="section">
+    <div class="section-label">Current Page</div>
+    <div id="page-title" class="page-title">—</div>
+    <div id="page-url" class="page-url">—</div>
+  </div>
+
+  <!-- Scraped content summary -->
+  <div id="scrape-summary" class="section" style="display:none;">
+    <div class="row">
+      <span class="section-label">Scraped</span>
+      <span id="char-count" class="badge badge-gold">0 chars</span>
+    </div>
+    <div class="row mt4">
+      <span id="pdf-count"  class="badge">0 PDFs</span>
+      <span id="gdoc-count" class="badge">0 Google Docs</span>
+    </div>
+  </div>
+
+  <!-- Google Docs queued -->
+  <div id="gdoc-section" class="section" style="display:none;">
+    <div class="section-label">Google Docs Queued</div>
+    <ul id="gdoc-list" class="item-list"></ul>
+  </div>
+
+  <!-- PDF links -->
+  <div id="pdf-section" class="section" style="display:none;">
+    <div class="section-label">PDF Links Found</div>
+    <ul id="pdf-list" class="item-list"></ul>
+  </div>
+
+  <!-- Settings -->
+  <div class="section">
+    <div class="section-label">Target Course</div>
+    <div class="row">
+      <input
+        id="course-input"
+        type="text"
+        placeholder="e.g. math20c or cse12"
+        class="input"
+      />
+    </div>
+    <div class="row mt4">
+      <span class="section-label" style="margin-bottom:0;">API URL</span>
+      <input
+        id="api-input"
+        type="text"
+        placeholder="http://localhost:8000"
+        class="input input-sm"
+      />
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div id="action-section" class="section" style="display:none;">
+    <button id="send-btn" class="btn btn-primary" disabled>
+      <span id="send-label">Send to Agent</span>
+      <span id="send-spinner" class="spinner" style="display:none;"></span>
+    </button>
+    <div id="send-status" class="status-msg" style="display:none;"></div>
+  </div>
+
+  <!-- Not on Canvas -->
+  <div id="not-canvas" class="section center">
+    <p class="muted">Navigate to a Canvas course page<br>to enable scraping.</p>
+  </div>
+
+  <!-- Result -->
+  <div id="result-section" class="section" style="display:none;">
+    <div class="section-label">Extraction Result</div>
+    <div id="result-body" class="result-card"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
